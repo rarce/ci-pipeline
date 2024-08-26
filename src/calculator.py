@@ -24,3 +24,12 @@ class Calculator:
     def hyperbolic_sine(self, value):
         """Calcula el seno hiperbólico de un valor."""
         return math.sinh(value)
+
+
+if __name__ == "__main__":
+    calc = Calculator()
+    print(calc.factorial(5))
+    print(calc.fibonacci(5))
+    print(calc.power(2, 3))
+    print(calc.exponential(2))
+    print(calc.hyperbolic_sine(2))
